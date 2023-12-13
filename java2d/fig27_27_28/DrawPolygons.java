@@ -8,7 +8,7 @@ public class DrawPolygons
    public static void main(String[] args)
    {
       // create frame for PolygonsJPanel
-      JFrame frame = new JFrame("Drawing Polygons");
+      JFrame frame = new JFrame("Drawing Polygons:");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
       PolygonsJPanel polygonsJPanel = new PolygonsJPanel(); 

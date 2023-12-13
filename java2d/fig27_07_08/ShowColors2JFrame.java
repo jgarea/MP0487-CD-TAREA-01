@@ -34,7 +34,7 @@ public class ShowColors2JFrame extends JFrame
             public void actionPerformed(ActionEvent event)
             {
                color = JColorChooser.showDialog(
-                  ShowColors2JFrame.this, "Choose a color", color);
+                  ShowColors2JFrame.this, "Choose a Color", color);
 
                // set default color, if no color is returned 
                if (color == null)

@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 
 public class ColorJPanel extends JPanel 
 {
-   // draw rectangles and Strings in different colors
+   // Draw rectangles and Strings in different colors
    @Override
    public void paintComponent(Graphics g)
    {
