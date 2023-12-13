@@ -28,7 +28,7 @@ public class RadioButtonFrame extends JFrame
       super("RadioButton Test");
       setLayout(new FlowLayout()); 
 
-      textField = new JTextField("Watch the font style change", 25);
+      textField = new JTextField("Watch the font style change:", 25);
       add(textField); // add textField to JFrame
 
       // create radio buttons
@@ -73,7 +73,7 @@ public class RadioButtonFrame extends JFrame
 
       public RadioButtonHandler(Font f)
       {
-         font = f; 
+         font = f;// fuente 
       } 
    
       // handle radio button events

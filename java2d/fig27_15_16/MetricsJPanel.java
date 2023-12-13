@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 
 public class MetricsJPanel extends JPanel 
 {
-   // display font metrics
+   // display font metrics.
    @Override
    public void paintComponent(Graphics g)
    {

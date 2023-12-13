@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class TextFieldFrame extends JFrame 
 {
-   private final JTextField textField1; // text field with set size
+   private final JTextField textField1; // text field with set size.
    private final JTextField textField2; // text field with text
    private final JTextField textField3; // text field with text and size
    private final JPasswordField passwordField; // password field with text
@@ -21,7 +21,7 @@ public class TextFieldFrame extends JFrame
       super("Testing JTextField and JPasswordField");
       setLayout(new FlowLayout());
 
-      // construct textfield with 10 columns
+      // construct textfield with 10 columns.
       textField1 = new JTextField(10); 
       add(textField1); // add textField1 to JFrame
 
