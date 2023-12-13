@@ -29,7 +29,7 @@ public class ShowColors2JFrame extends JFrame
       changeColorJButton.addActionListener(
          new ActionListener() // anonymous inner class
          {
-            // display JColorChooser when user clicks button
+            // display JColorChooser whe user clicks button
             @Override
             public void actionPerformed(ActionEvent event)
             {
